@@ -8,26 +8,26 @@ blsshsfgh
 '''
 insultos ={
     "cap de suru": {
-        "CAT": "Insulto1",
-        "ESP": "Insult1_ES",
-        "ENG": "Insult1_EN",
-        "KLI": "Insult1_KLI"
+        "CAT": "suru",
+        "ESP": "cabeza de corcho",
+        "ENG": "hat nap",
+        "KLI": "vishmila"
     },
     "bufa gaitas": {
-        "CAT": "Insulto2",
-        "ESP": "Insult2_ES",
-        "ENG": "Insult2_EN",
-        "KLI": "Insult2_KLI"
+        "CAT": "bufa gaitas",
+        "ESP": "sopla gaitas",
+        "ENG": "blow bagpipes",
+        "KLI": "habibi "
     },
     "ruc": {
-        "CAT": "Insulto3",
-        "ESP": "Insult3_ES",
-        "ENG": "Insult3_EN",
-        "KLI": "Insult3_KLI"
+        "CAT": "ruc",
+        "ESP": "asno",
+        "ENG": "donkey",
+        "KLI": "hasbulla"
     },
     "menja merda": {
         "CAT": "Insulto4",
-        "ESP": "Insult4_ES",
+        "ESP": "come mierda",
         "ENG": "Insult4_EN",
         "KLI": "Insult4_KLI"
     },
@@ -55,7 +55,7 @@ insultos ={
         "ENG": "Insult8_EN",
         "KLI": "Insult8_KLI"
     }
-}
+
 insulto = input("Escribe un insulto en catalán: ")
 if insulto in insultos:
     print(f"Traducción a castellano: {insultos[insulto]['ESP']}")

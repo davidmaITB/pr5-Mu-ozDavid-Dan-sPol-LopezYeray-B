@@ -64,8 +64,8 @@ for year, temperatures in temperature_data.items():
         if temperatura < min_temperatura:
             min_temperatura = temperatura
         sum_temperatura += temperatura
-
-med_temperatura = sum_temperatura / len(temp2022 * 22)
+#13.96
+med_temperatura = sum_temperatura / 299
 
 print("periode 2000-2022")
 print("Maximum temperature:", f"{max_temperatura:.2f}")
