@@ -50,24 +50,25 @@ med_temperatura_2022 = sum_temperatura_2022 / len(temp2022)
 print("Any 2022")
 print("Maximum temperature:", f"{max_temperatura_2022:.2f}")
 print("Minimum temperature:", f"{min_temperatura_2022:.2f}")
-print("Average temperature:", f"{med_temperatura_2022:.2f}")
+print("Average temperature:", f"{med_temperatura_2022:.2f}\n")
 
 
 #Temperaturas de todos los años
 max_temperatura = float('-inf')
 min_temperatura = float('inf')
 sum_temperatura = 0
-for year, temperatures in temperature_data.items():
+for año, temperatures in temperature_data.items():
     for temperatura in temperatures:
         if temperatura > max_temperatura:
             max_temperatura = temperatura
         if temperatura < min_temperatura:
             min_temperatura = temperatura
         sum_temperatura += temperatura
-#13.96
-med_temperatura = sum_temperatura / 299
 
+
+med_temperatura = sum_temperatura / (len(temperature_data) * 13)
 print("periode 2000-2022")
+
 print("Maximum temperature:", f"{max_temperatura:.2f}")
 print("Minimum temperature:", f"{min_temperatura:.2f}")
 print("Average temperature:", f"{med_temperatura:.2f}")

@@ -4,9 +4,9 @@ Pol Danés
 Yeray Lopez
 24 gener 2024
 
-blsshsfgh
+Traduccio d'insults
 '''
-insultos ={
+insults ={
     "cap de suru": {
         "CAT": "suru",
         "ESP": "cabeza de corcho",
@@ -26,40 +26,41 @@ insultos ={
         "KLI": "hasbulla"
     },
     "menja merda": {
-        "CAT": "Insulto4",
+        "CAT": "menja merda",
         "ESP": "come mierda",
-        "ENG": "Insult4_EN",
-        "KLI": "Insult4_KLI"
+        "ENG": "eat shiter",
+        "KLI": "atapundimak"
     },
     "tita petita": {
-        "CAT": "Insulto5",
-        "ESP": "Insult5_ES",
-        "ENG": "Insult5_EN",
-        "KLI": "Insult5_KLI"
+        "CAT": "tita petita",
+        "ESP": "pene pequeño",
+        "ENG": "small dick",
+        "KLI": "sahbi"
     },
     "fill de puta": {
-        "CAT": "Insulto6",
-        "ESP": "Insult6_ES",
-        "ENG": "Insult6_EN",
-        "KLI": "Insult6_KLI"
+        "CAT": "fill de puta",
+        "ESP": "hijo de puta",
+        "ENG": "son of a bitch",
+        "KLI": "habsibi"
     },
     "puter": {
-        "CAT": "Insulto7",
-        "ESP": "Insult7_ES",
-        "ENG": "Insult7_EN",
-        "KLI": "Insult7_KLI"
+        "CAT": "puter",
+        "ESP": "putero",
+        "ENG": "whore",
+        "KLI": "hotfordowam"
     },
     "disminuit": {
-        "CAT": "Insulto8",
-        "ESP": "Insult8_ES",
-        "ENG": "Insult8_EN",
-        "KLI": "Insult8_KLI"
-    }
+        "CAT": "disminuit",
+        "ESP": "disminuido",
+        "ENG": "retard",
+        "KLI": "slasnfme"
+    }}
+try:
+    insult = input("Possa un dels seguents insults en catala: (cap de suru, bufa gaitas, ruc, tita petita, fill de puta, puter, disminuit)  ")
+    if insult in insults:
+        print(f"Traducció a Castella: {insults[insult]['ESP']}")
+        print(f"Traduccio a English: {insults[insult]['ENG']}")
+        print(f"Traduccio a Klingon: {insults[insult]['KLI']}")
 
-insulto = input("Escribe un insulto en catalán: ")
-if insulto in insultos:
-    print(f"Traducción a castellano: {insultos[insulto]['ESP']}")
-    print(f"Translation to English: {insultos[insulto]['ENG']}")
-    print(f"Translation to Klingon: {insultos[insulto]['KLI']}")
-else:
-    print("Insulto no encontrado en la base de datos.")
+except:
+    print("El insult que has introduit no es troba en el nostre diccionari o ha estat introduit incorrectament.")
