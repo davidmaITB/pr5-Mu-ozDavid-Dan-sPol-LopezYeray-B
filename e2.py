@@ -4,7 +4,7 @@ Pol Danés
 Yeray Lopez
 24 gener 2024
 
-Mitjana de nombre aleatoris
+Mitjana de nombre aleatoriss
 '''
 import random
 MAX= 100

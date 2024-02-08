@@ -4,7 +4,7 @@ Pol Danés
 Yeray Lopez
 24 gener 2024
 
-Traduccio d'insults
+Traduccio d'insultss
 '''
 insults ={
     "cap de suru": {

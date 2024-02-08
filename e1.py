@@ -4,7 +4,7 @@ Pol Danés
 Yeray Lopez
 24 gener 2024
 
-SeaTemp
+SeaTempp
 '''
 
 TEMPERATURE_DATA = {
